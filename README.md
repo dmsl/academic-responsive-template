@@ -1,6 +1,6 @@
 # Boostrap-Academic-Profile
 
-##A Resonsive HTML5 template for setting up an academic website (faculty, researchers, etc.)
+##A Resonsive HTML5 template for setting up an academic website (ideal for faculty, researchers, etc. at Universities and Research Organizations)
 
 Author: Demetris Zeinalipour, Department of Computer Science, University of Cyprus
 
