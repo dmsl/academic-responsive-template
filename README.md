@@ -10,6 +10,8 @@ The template is ideas for faculty, researchers, etc. at Universities and Researc
 
 The template is free and open to reuse under a CC BY 4.0 licence.
 
+You will need to edit the sources with a text editor or a capable WYSIWYG editor.
+
 Enjoy!
 
 Copyright (c) 2015, Demetris Zeinalipour, Department of Computer Science
