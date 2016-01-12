@@ -1,18 +1,12 @@
 # Boostrap-Academic-Profile
 
-A Resonsive HTML5 template for setting up an academic website (faculty, researchers, etc.)
+##A Resonsive HTML5 template for setting up an academic website (faculty, researchers, etc.)
 
 Author: Demetris Zeinalipour, Department of Computer Science, University of Cyprus
 
-You might also consider checking out a standalone version of Anyplace, coined Airplace.
+Enjoy
 
-https://github.com/dmsl/airplace
-
-Enjoy Anyplace!
-
-The Anyplace Team 
-	 
-Copyright (c) 2015, Data Management Systems Lab (DMSL), Department of Computer Science
+Copyright (c) 2015, Demetris Zeinalipour, Department of Computer Science
 University of Cyprus.
 
 All rights reserved.
