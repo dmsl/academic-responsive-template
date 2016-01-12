@@ -1,6 +1,12 @@
 # Boostrap-Academic-Profile
 
-A Resonsive HTML5 template for setting up an academic website (ideal for faculty, researchers, etc. at Universities and Research Organizations). 
+## A Responsive HTML5/CSS3 template for setting up an academic website.
+
+The template has been tested on iOS, Windows Phone, Android, Chrome, Safari and other browsers. Some of its features require external components (e.g., search is carried out through Google Custom Search - free). Additionally, having a CV in LATEX format will help to automate the generation of material and streamline consistency between your CV and your website.
+
+The original idea for setting up this template was to make an academic profile easily accessible from a smartphone.
+
+The template is ideas for faculty, researchers, etc. at Universities and Research Organizations. 
 
 The template is free and open to reuse under a CC BY 4.0 licence.
 
