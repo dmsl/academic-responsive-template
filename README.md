@@ -13,7 +13,7 @@ All rights reserved.
 
 ## Creative Commons CC BY 4.0 licence 
 
-This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.
+Boostrap-Academic-Profile is open to reuse under a CC BY 4.0 licence. This license lets others distribute, remix, tweak, and build upon Boostrap-Academic-Profile, even commercially, as long as they credit the original creation in the footer of the site. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.
 
 More: http://creativecommons.org/licenses/by/4.0/legalcode
 
