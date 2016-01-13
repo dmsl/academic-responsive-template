@@ -35,7 +35,7 @@ To use AR on your site, please add the following code at the end of your website
     </center>
     </small>
 </footer>
-```html
+```
 
 ## Example Site
 
