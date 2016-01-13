@@ -23,7 +23,8 @@ More: http://creativecommons.org/licenses/by/4.0/legalcode
 
 ## Credits
 
-Add the following code to your
+To use AR on your site, please add the following code at the end of your website:
+```html
 <footer>
     <small>
     <center>
@@ -34,6 +35,7 @@ Add the following code to your
     </center>
     </small>
 </footer>
+```html
 
 ## Example Site
 
