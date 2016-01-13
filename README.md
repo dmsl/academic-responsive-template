@@ -1,4 +1,4 @@
-# Academic-Responsive (AR) Template
+# Academic Responsive (AR) Template
 
 ## A Responsive HTML5/CSS3 template for setting up an academic website.
 
