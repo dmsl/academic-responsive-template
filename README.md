@@ -21,6 +21,10 @@ Boostrap-Academic-Profile is open to reuse under a CC BY 4.0 licence. This licen
 
 More: http://creativecommons.org/licenses/by/4.0/legalcode
 
+## Example Site:
+
+Available here: http://www.cs.ucy.ac.cy/~dzeina/
+
 ## Components 
 
 Short description of the contents included in this release.
