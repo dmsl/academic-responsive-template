@@ -21,7 +21,21 @@ Boostrap-Academic-Profile is open to reuse under a CC BY 4.0 licence. This licen
 
 More: http://creativecommons.org/licenses/by/4.0/legalcode
 
-## Example Site:
+## Credits
+
+Add the following code to your
+<footer>
+    <small>
+    <center>
+        © YEAR | YOURNAME. Credits: AR template
+    <a onclick="javascript:$('#credit').toggle();"><img border="0" src="images/ccby.png"/></a>
+    <div style="display:none;" id="credit">[AR template available under Creative Commons CC BY 4.0 licence: <a href="https://github.com/dmsl/academic-responsive-template"_blank">https://github.com/dmsl/academic-responsive-template</a> ]
+    </div>
+    </center>
+    </small>
+</footer>
+
+## Example Site
 
 Available here: http://www.cs.ucy.ac.cy/~dzeina/
 
@@ -29,7 +43,7 @@ Available here: http://www.cs.ucy.ac.cy/~dzeina/
 
 Short description of the contents included in this release.
 
-- index.html : Contains most of the website material (single-page layout). Just change accordingly.
+- index.html : Contains most of the website material (single-page layout). Change this accordingly.
 - bio.html: Add your Short Bio
 - cv.html: To generate the content of this file effectively, first generate your CV from a latex file: "latex2html -no_math -html_version 3.2,math -split 0 yourcv.tex " Then copy/paste the material onto cv.html
 - publications: tenatively add your publications in bibtex format to the following file publications/demo.bib. If PHP is available on your webserver, this will show the bibtex entries neatly.
