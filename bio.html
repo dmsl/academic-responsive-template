@@ -7,26 +7,26 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Font Awesome Icons -->
-<link rel="stylesheet" href="css3/font-awesome.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
 
 <!-- Bootstrap -->
-<link href="css3/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
 <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
-<script src="js3/html5shiv.js"></script>
-<script src="js3/respond.min.js"></script>
+<script src="js/html5shiv.js"></script>
+<script src="js/respond.min.js"></script>
 <![endif]-->
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js3/jquery.min.js"></script>
+<script src="js/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js3/bootstrap.min.js"></script>
-<script src="js3/menucollapse.js"></script>
-<script type="text/javascript" src="js3/arrow78.js"></script><html>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/menucollapse.js"></script>
+<script type="text/javascript" src="js/arrow78.js"></script><html>
 
 <!-- Google Site Search | Search box-->
 <script>
@@ -90,17 +90,22 @@
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                 Home<span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                    <li><a href="index.html#about">About</a></li>
-                        <li><a href="bio.html">Short Bio</a></li>
+                    <li><a href="index.html#intro">Introduction</a></li>
+                        <li><a href="bio.html">Short Biography</a></li>
                         <li><a href="cv.html">CV (Web)</a></li>
-                        <li><a target="_blank" "href="zeinalipour.pdf">CV (PDF)</a></li>
+                        <li><a target="_blank" href="zeinalipour.pdf">CV (PDF)</a></li>
                     </ul>
                 </li>
                 <li class="page-scroll">
                 <a href="index.html#news">News</a>
                 </li>
-                <li class="page-scroll">
-                    <a href="index.html#publications">Publications</a>
+                <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                Publications<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                    <li><a onclick="javascript:reset_menus();$('#tab-3-content').show();" href="index.html#publications">Selected</a></li>
+                        <li><a href="publications/">All</a></li>
+                    </ul>
                 </li>
                 <li class="page-scroll">
                     <a href="talks/">Talks</a>
@@ -145,54 +150,20 @@
     <gcse:searchresults-only></gcse:searchresults-only>
 </section>
 
-    <!---------------------------------------------------------------------------------------------------->
-    <!---------------------------------------------------------------------------------------------------->
-    <!---------------------------------------------------------------------------------------------------->
+<section id="tree" style="margin-top:50px">
+    <div class="container">
+        <a href="index.html">Zeinalipour</a> > Short Biography
+    </div>
+</section>
+
 
 <!-- Home Section -->
 <section id="home">
     <div class="container lead">
-        <br>
-    <h1 align="CENTER">Short Biography of Demetris Zeinalipour</h1>
 
-            <p>Demetris Zeinalipour is an Assistant Professor of
-              Computer Science at the University of Cyprus, directing
-              the Data Management Systems Laboratory (DMSL). He got his
-              Ph.D. and M.Sc. in Computer Science and Engineering from
-              the University of California - Riverside in 2005 and 2003,
-              respectively. He got his B.Sc. in Computer Science from
-              the University of Cyprus in 2000. He has held short-term research positions at the Network Intelligence Lab of Akamai Technologies, Cambridge, MA, USA and the University of Pittsburgh, PA, USA. Between 2005 and 2012, he has served the University of Cyprus and the Open University of Cyprus as a Lecturer of Computer Science. His research
-              interests  include Data Management in Computer Systems and Networks, particularly Mobile and Sensor Data Management; Big Data Management in Parallel and Distributed Architectures; Spatio-Temporal Data Management; Network and Web 2.0 Data Management; Crowd and Indoor Data Management; Data Privacy Management.
-              His
-              h-index is 21, holds 2012 citations, has an Erd&#337;s number
-              of 3, won 5 international awards (IPSN'14, EVARILOS'14, APPCAMPUS'13,
-              MDM'12, CIC'06) nd delivered over 30 invited talks. He is a
-              TPC member for major Data Management conferences
-              including: ACM SIGMOD, VLDB, IEEE ICDE, IEEE MDM, ACM
-              CIKM, ACM SIGKDD. He has also been a TPC co-chair for 5 conferences and workshops
-              (MDM'10, HuMoComP'15/MDM, DMSN'10/VLDB,
-              MobiDE'09/SIGMOD) as well as a referee for several IEEE and
-              ACM journals, including TKDE, TPDS, TIST, TMC, TEC, TVT,
-              TC and VLDB Journal.&nbsp; He has participated in projects
-              funded by the US NSF #0220148, #0330481, EU's CoreGRID
-              Network of Excellence (#IST-2002-004265), EU's EGEE
-              (#IST-2003-508833) and by the Cyprus RPF. He participated
-              in EU's Marie Curie Host Fellowships for the Transfer of
-              Knowledge "SEARCHiN: SEARCHing in a Networked world", EU's
-              CONET Network of Excellence (#FP7-224053). He is the PI of
-              project "SmartNet: A Hardware Testbed for Testing
-              Smartphone Network Applications", funded by UCY and has
-              also been the PI of project "SenseView: An Energy
-              Efficient Data Acquisition Framework for Wireless Sensor
-              Networks", funded by the Open University of Cyprus.
-              Finally, he has extensively been involved in industrial
-              Research and Development projects: Cywee (Taiwan) and
-              Microsoft/Nokia/Aalto (Finland) and MTN
-              (Cyprus) but has also technically also lead several mobile data management services including: i) Anyplace (an Indoor Information Service); ii) SmartLab (a programmable smartphone testbed); and iii) Rayzit (a crowd messaging network). He is a member of the ACM (Sigmod), the IEEE
-              (Computer Society) and the USENIX Association. For more
-              information please visit: <a
-                href="http://www.cs.ucy.ac.cy/%7Edzeina/">http://www.cs.ucy.ac.cy/~dzeina/</a>
-              or the DMSL website: <a href="http://dmsl.cs.ucy.ac.cy/">http://dmsl.cs.ucy.ac.cy/</a><br>
+    <h3>Short Biography of Demetris Zeinalipour</h1>
+
+    <p>Demetris Zeinalipour is an Assistant Professor of Computer Science at the University of Cyprus, directing the Data Management Systems Laboratory (DMSL). He got his Ph.D. and M.Sc. in Computer Science and Engineering from the University of California - Riverside in 2005 and 2003, respectively. He got his B.Sc. in Computer Science from the University of Cyprus in 2000. He has held short-term research positions at the Network Intelligence Lab of Akamai Technologies, Cambridge, MA, USA and the University of Pittsburgh, PA, USA. Between 2005 and 2012, he has served the University of Cyprus and the Open University of Cyprus as a Lecturer of Computer Science. His research interests  include Data Management in Computer Systems and Networks, particularly Mobile and Sensor Data Management; Big Data Management in Parallel and Distributed Architectures; Spatio-Temporal Data Management; Network and Web 2.0 Data Management; Crowd and Indoor Data Management; Data Privacy Management. His h-index is 21, holds over 2070 citations, has an Erd&#337;s number of 3, won 5 international awards (IPSN'14, EVARILOS'14, APPCAMPUS'13, MDM'12, CIC'06) nd delivered over 30 invited talks. He is a TPC member for major Data Management conferences including: ACM SIGMOD, VLDB, IEEE ICDE, IEEE MDM, ACM CIKM, ACM SIGKDD. He has also been a TPC co-chair for 5 conferences and workshops           (MDM'10, HuMoComP'15/MDM, DMSN'10/VLDB, MobiDE'09/SIGMOD) as well as a referee for several IEEE and ACM journals, including TKDE, TPDS, TIST, TMC, TEC, TVT,              TC and VLDB Journal.&nbsp; He has participated in projects funded by the US NSF #0220148, #0330481, EU's CoreGRID Network of Excellence (#IST-2002-004265), EU's EGEE (#IST-2003-508833) and by the Cyprus RPF. He participated in EU's Marie Curie Host Fellowships for the Transfer of Knowledge "SEARCHiN: SEARCHing in a Networked world", EU's CONET Network of Excellence (#FP7-224053). He is the PI of project "SmartNet: A Hardware Testbed for Testing Smartphone Network Applications", funded by UCY and has also been the PI of project "SenseView: An Energy Efficient Data Acquisition Framework for Wireless Sensor Networks", funded by the Open University of Cyprus. Finally, he has extensively been involved in industrial Research and Development projects: Cywee (Taiwan) and              Microsoft/Nokia/Aalto (Finland) and MTN (Cyprus) but has also technically also lead several mobile data management services including: i) Anyplace (an Indoor Information Service); ii) SmartLab (a programmable smartphone testbed); and iii) Rayzit (a crowd messaging network). He is a member of the ACM (SIGMOD), the IEEE (Computer Society) and the USENIX Association. For more information please visit: <a href="http://www.cs.ucy.ac.cy/%7Edzeina/">http://www.cs.ucy.ac.cy/~dzeina/</a> or the DMSL website: <a href="http://dmsl.cs.ucy.ac.cy/">http://dmsl.cs.ucy.ac.cy/</a><br>
             </p>
         </div>
         </div>
@@ -202,16 +173,15 @@
 <footer>
     <small>
     <center>
-    © 2015 Template by <a href="http://www.cs.ucy.ac.cy/~dzeina/">D. Zeinalipour</a>
-    <a onclick="javascript:$('#tab-10-content').toggle();"><img border="0" src="images/ccby.png"/></a>
-
-    <div class="allshow" style="display:none;" id="tab-10-content">
-    [Open to reuse with a <a  target="_blank" href="http://creativecommons.org/licenses/">Creative Commons CC BY 4.0 licence</a> ]
+        © 2015 | D. Zeinalipour. Credits: AR template
+    <a onclick="javascript:$('#credit').toggle();"><img border="0" src="images/ccby.png"/></a>
+    <div style="display:none;" id="credit">[AR template available under Creative Commons CC BY 4.0 licence: 
+    <a href="https://github.com/dmsl/academic-responsive-template"_blank">
+        https://github.com/dmsl/academic-responsive-template
+    </a> ]
     </div>
-
-    </small>
     </center>
-    <br/>
+    </small>
 </footer>
 
 </body>

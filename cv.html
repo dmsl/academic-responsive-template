@@ -90,17 +90,22 @@
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                 Home<span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                    <li><a href="index.html#about">About</a></li>
-                        <li><a href="bio.html">Short Bio</a></li>
+                    <li><a href="index.html#intro">Introduction</a></li>
+                        <li><a href="bio.html">Short Biography</a></li>
                         <li><a href="cv.html">CV (Web)</a></li>
-                        <li><a target="_blank" "href="zeinalipour.pdf">CV (PDF)</a></li>
+                        <li><a target="_blank" href="zeinalipour.pdf">CV (PDF)</a></li>
                     </ul>
                 </li>
                 <li class="page-scroll">
                 <a href="index.html#news">News</a>
                 </li>
-                <li class="page-scroll">
-                    <a href="index.html#publications">Publications</a>
+                <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                Publications<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                    <li><a onclick="javascript:reset_menus();$('#tab-3-content').show();" href="index.html#publications">Selected</a></li>
+                        <li><a href="publications/">All</a></li>
+                    </ul>
                 </li>
                 <li class="page-scroll">
                     <a href="talks/">Talks</a>
@@ -145,12 +150,19 @@
     <gcse:searchresults-only></gcse:searchresults-only>
 </section>
 
+
+<section id="tree" style="margin-top:50px">
+    <div class="container">
+        <a href="index.html">Zeinalipour</a> > Curriculum Vitae
+    </div>
+</section>
+
 <!-- Home Section -->
 <section id="home">
     <div class="container">
 <br>
-<h1 align="CENTER">Curriculum Vitae of Demetris Zeinalipour</h1>
-<h3 align="CENTER">Last Update: August 24, 2015</H3>
+<h3 align="CENTER">Curriculum Vitae of Demetris Zeinalipour</h3>
+<h5 align="CENTER">Last Update: August 24, 2015</H5>
 
 <center><a target="_blank" href="zeinalipour.pdf">Download in PDF <img border="0" src="images/pdf.gif"></a></center>
 
@@ -3320,16 +3332,15 @@
 <footer>
     <small>
     <center>
-    © 2015 Template by <a href="http://www.cs.ucy.ac.cy/~dzeina/">D. Zeinalipour</a>
-    <a onclick="javascript:$('#tab-10-content').toggle();"><img border="0" src="images/ccby.png"/></a>
-
-    <div class="allshow" style="display:none;" id="tab-10-content">
-    [Open to reuse with a <a  target="_blank" href="http://creativecommons.org/licenses/">Creative Commons CC BY 4.0 licence</a> ]
+        © 2015 | D. Zeinalipour. Credits: AR template
+    <a onclick="javascript:$('#credit').toggle();"><img border="0" src="images/ccby.png"/></a>
+    <div style="display:none;" id="credit">[AR template available under Creative Commons CC BY 4.0 licence: 
+    <a href="https://github.com/dmsl/academic-responsive-template"_blank">
+        https://github.com/dmsl/academic-responsive-template
+    </a> ]
     </div>
-
-    </small>
     </center>
-    <br/>
+    </small>
 </footer>
 
 </body>

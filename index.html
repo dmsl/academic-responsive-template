@@ -51,7 +51,7 @@
         var urlArray = window.location.href.split('#');
         if (urlArray.length == 2 && urlArray[1] != "") {
             switch (urlArray[1]) {
-                case "about":        $('#tab-1-content').show(); break;
+                case "intro":        $('#tab-1-content').show(); break;
                 case "news":         $('#tab-2-content').show(); break;
                 case "publications": $('#tab-3-content').show(); break;
                 case "courses":      $('#tab-4-content').show(); break;
@@ -157,17 +157,22 @@
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                 Home<span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                    <li><a href="index.html#about">About</a></li>
-                        <li><a href="bio.html">Short Bio</a></li>
+                    <li><a href="index.html#intro">Introduction</a></li>
+                        <li><a href="bio.html">Short Biography</a></li>
                         <li><a href="cv.html">CV (Web)</a></li>
-                        <li><a target="_blank" "href="zeinalipour.pdf">CV (PDF)</a></li>
+                        <li><a target="_blank" href="zeinalipour.pdf">CV (PDF)</a></li>
                     </ul>
                 </li>
                 <li class="page-scroll">
                     <a onclick="javascript:reset_menus();$('#tab-2-content').show();" href="#news">News</a>
                 </li>
-                <li class="page-scroll">
-                    <a onclick="javascript:reset_menus();$('#tab-3-content').show();" href="#publications">Publications</a>
+                <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                Publications<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                    <li><a onclick="javascript:reset_menus();$('#tab-3-content').show();" href="#publications">Selected</a></li>
+                        <li><a href="publications/">All</a></li>
+                    </ul>
                 </li>
                 <li class="page-scroll">
                     <a href="talks/">Talks</a>
@@ -269,13 +274,13 @@
 </section>
 
 <!-- Home Section -->
-<section id="about">
+<section id="intro">
     <div class="container lead">
         <div style="text-align: left; margin-top:10px" class="col-md-12">
             <!--<h2>Welcome!</h2>-->
 
             <i class="noshow" style="display:none;" id="tab-1">
-            <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-1-content').toggle();">About <span class="glyphicon glyphicon-chevron-right"></span></button>
+            <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-1-content').toggle();">Introduction <span class="glyphicon glyphicon-chevron-right"></span></button>
             </i>
 
             <div class="allshow" style="display:none;" id="tab-1-content">
@@ -829,16 +834,15 @@
 <footer>
     <small>
     <center>
-    © 2015 Template by <a href="http://www.cs.ucy.ac.cy/~dzeina/">D. Zeinalipour</a>
-    <a onclick="javascript:$('#tab-10-content').toggle();"><img border="0" src="images/ccby.png"/></a>
-
-    <div class="allshow" style="display:none;" id="tab-10-content">
-    [Open to reuse with a <a  target="_blank" href="http://creativecommons.org/licenses/">Creative Commons CC BY 4.0 licence</a> ]
+        © 2015 | D. Zeinalipour. Credits: AR template
+    <a onclick="javascript:$('#credit').toggle();"><img border="0" src="images/ccby.png"/></a>
+    <div style="display:none;" id="credit">[AR template available under Creative Commons CC BY 4.0 licence: 
+    <a href="https://github.com/dmsl/academic-responsive-template"_blank">
+        https://github.com/dmsl/academic-responsive-template
+    </a> ]
     </div>
-
-    </small>
     </center>
-    <br/>
+    </small>
 </footer>
 
 </body>

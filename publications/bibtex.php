@@ -336,10 +336,10 @@
                                 break;
                             case "booktitle":
                                 if($this->sortedItems['type'][$element] == "editorial") {
-                                    $this->resultedHtml .= "<b>\"".$this->sortedItems[$print][$element]."\"</b> ";
+                                    $this->resultedHtml .= "<b>".$this->sortedItems[$print][$element]."</b> ";
                                 }
                                 else {
-                                    $this->resultedHtml .= "<b>\"".$this->sortedItems[$print][$element]."\"</b> ";
+                                    $this->resultedHtml .= "<b>".$this->sortedItems[$print][$element]."</b> ";
                                 }
                                 break;
                             case "journal":
@@ -373,7 +373,7 @@
                                 $this->resultedHtml .= " Chapter ".$this->sortedItems[$print][$element].$delimiter;
                                 break;
                             case "author":
-                                $this->resultedHtml .= $this->sortedItems[$print][$element]." ";
+                                $this->resultedHtml .= $this->sortedItems[$print][$element].", ";
                                 break;
                             case "location":
                                 $this->resultedHtml .= $this->sortedItems[$print][$element]." ";
