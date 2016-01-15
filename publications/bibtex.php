@@ -422,9 +422,9 @@
 		function printPublications() {
 			//Print filters 
             echo '<ul id="publication-filter">';
-            echo '<li><a href="#" class="current" data-filter="*">All</a></li>';
+            echo '<li><a href="#" class="btn btn-xs btn-success current" data-filter="*">All</a></li>';
             for($i = 0; $i < count($this->yearData); $i++) {
-                echo '<li><a href="#" data-filter=".'.$this->yearData[$i].'">'.$this->yearData[$i].'</a></li>';
+                echo '<li><a href="#" class="btn btn-xs btn-primary" data-filter=".'.$this->yearData[$i].'">'.$this->yearData[$i].'</a></li>';
             }
             echo '</ul>';
 			echo '<div style="clear:both;"></div>';

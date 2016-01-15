@@ -192,10 +192,10 @@ class ClassTeX_Parser
 		global $sortbyTitle;	
 		//Print filters 
 		echo '<ul id="classes-filter">';
-		echo '<li><a href="#" class="current" data-filter="*">All</a></li>';
+		echo '<li><a href="#"  class="btn btn-xs btn-success current" data-filter="*">All</a></li>';
 		for($i = 0; $i < count($this->types); $i++) {
                 $key = array_search($this->types[$i], $sortby);
-                echo '<li><a href="#" data-filter=".'.$this->types[$i].'">'.$sortbyTitle[$key].'</a></li>';
+                echo '<li><a class="btn btn-xs btn-primary"  href="#" data-filter=".'.$this->types[$i].'">'.$sortbyTitle[$key].'</a></li>';
 		}
 		echo '</ul>';
   		echo '<div style="clear:both;"></div>';
@@ -234,7 +234,7 @@ class ClassTeX_Parser
         }
         
         if (isset($this->sortedItems['link'][$element])) {
-            echo  '<a href="'.$this->sortedItems['link'][$element].'" class="publications-ppt"original-title="Presentation" target="_blank"></a>';
+            echo  '&nbsp;<a href="'.$this->sortedItems['link'][$element].'" class="publications-ppt"original-title="Presentation" target="_blank"></a>';
           // $this->resultedHtml .= '<a target="_blank" title="Powerpoint" class="publications-title" href="'.$this->sortedItems['powerpoint'][$element].'"><i class="fa fa-file-powerpoint-o">&nbsp;</i></a>';
         }
         if (isset($this->sortedItems['url'][$element])) {

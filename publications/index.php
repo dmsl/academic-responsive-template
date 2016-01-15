@@ -7,8 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Font Awesome Icons -->
-<link rel="stylesheet" href="css/font-awesome.min.css">
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <!-- Bootstrap -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
@@ -20,14 +19,6 @@
 <script src="js/respond.min.js"></script>
 <![endif]-->
 
-
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
-<script src="js/menucollapse.js"></script>
-<script type="text/javascript" src="js/arrow78.js"></script><html>
-
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
 <script type="text/javascript" src="js/jquery.tipsy.js"></script>
@@ -36,6 +27,12 @@
 <link rel="stylesheet" type="text/css" href="css/custom.css"/>
 <link rel="stylesheet" type="text/css" href="css/tipsy.css"/>
 <link rel="stylesheet" type="text/css" href="css/fancybox.css"/>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/menucollapse.js"></script>
+<script type="text/javascript" src="js/arrow78.js"></script><html>
+
 
 <!-- Google Site Search | Search box-->
 <script>
