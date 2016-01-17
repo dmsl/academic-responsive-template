@@ -55,6 +55,8 @@ Short description of the contents included in this release.
 - talks: tenatively add your talks in bibtex format to the following file talks/presentations/demo.bibIf PHP is available on your webserver, this will show the bibtex entries neatly.
 - Search Box: Setup a custom search box through Google. Replace the respective javascript in the HTML files to make your new search box effective.
 
+## CR (Course Responsive) Template
 
+Also check out the sister template designated for courses: https://github.com/dmsl/course-responsive-template
 
 
