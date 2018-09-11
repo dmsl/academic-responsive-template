@@ -31,8 +31,10 @@
         var $filename;
         var $inputdata;
         var $yearData = array();
+        var $typeData = array();
+        var $awardData = array();
         var $lastType;
-		var $resultedHtml;
+	var $resultedHtml;
         
         /**
          * BibTeX_Parser( $file, $data )
@@ -73,7 +75,8 @@
                                  'durl' => array(),
                                  'powerpoint' => array(),
                                  'infosite' => array(),
-                                 'website' => array()
+                                 'website' => array(),
+                                 'award' => array()
                                  );
             
             if( $file )
@@ -112,11 +115,14 @@
             
             $this->prepareHTML();
 			
-			$this->yearData = array_unique($this->yearData);
+	    $this->yearData = array_unique($this->yearData);
+
             
             rsort($this->yearData);
-			
-			return $this-> printPublications();
+	    $this->awardData = array_unique($this->awardData);		
+	    $this->typeData = array_unique($this->typeData);
+
+            return $this-> printPublications();
         }
         
         /**
@@ -315,14 +321,23 @@
             $delimiter=", ";
             if ($this->lastType != $this->sortedItems['type'][$element]){
                 $this->lastType = $this->sortedItems['type'][$element];
-                $this->resultedHtml .= '<li><h2>'.$this->getTitle($this->sortedItems['type'][$element]).'</h2></li>';
+                $this->resultedHtml .= '<li class="'.$this->sortedItems['year'][$element].' '.$this->sortedItems['type'][$element].'"><h2>'.$this->getTitle($this->sortedItems['type'][$element]).'</h2></li>';
             }
-            $this->resultedHtml .= '<li class="'.$this->sortedItems['year'][$element].' publication" title="'.$this->sortedItems['year'][$element].'">';        
-            $this->countTypes($element, $this->sortedItems['type'][$element]);         
+           array_push($this->typeData, $this->sortedItems['type'][$element]);
+           //echo $this->sortedItems['type'][$element]; 
+ 
+          //  $this->resultedHtml .= '<li class="'.$this->sortedItems['year'][$element].' publication" title="'.$this->sortedItems['year'][$element].'">';        
+           if (isset($this->sortedItems['award'][$element])) 
+               $this->resultedHtml .= '<li class="'.$this->sortedItems['year'][$element].' award publication '.$this->sortedItems['type'][$element].'" title="'.$this->sortedItems['year'][$element].'">'; 
+           else  
+               $this->resultedHtml .= '<li class="'.$this->sortedItems['year'][$element].' publication '.$this->sortedItems['type'][$element].'" title="'.$this->sortedItems['year'][$element].'">';   
+           
+            $this->countTypes($element, $this->sortedItems['type'][$element]);   
+            //array_push($this->typeData, $this->sorteditems['type'][$element]);   
             foreach($fields as $print) {
                 if(isset($this->sortedItems[$print])){
                     if(isset($this->sortedItems[$print][$element])){
-                        switch ($print) {
+                         switch ($print) {
                             case "title":
                                 $this->resultedHtml .= '<strong>"';
                                 if(isset($this->sortedItems['durl'][$element])){ 
@@ -350,9 +365,11 @@
 								array_push($this->yearData, $this->sortedItems[$print][$element]);
                                 break;
                             case "numpages":
-                                $this->resultedHtml .= $this->sortedItems[$print][$element].$delimiter;
+                                if($this->sortedItems[$print][$element]!="")
+                                    $this->resultedHtml .= $this->sortedItems[$print][$element].$delimiter;
                             case "pages":
-                                $this->resultedHtml .= " pp. ".$this->sortedItems[$print][$element].$delimiter;
+                                if($this->sortedItems[$print][$element]!="")
+                                    $this->resultedHtml .= " pp. ".$this->sortedItems[$print][$element].$delimiter;
                                 break;
                             case "series":
                                 if(isset($this->sortedItems['infosite'][$element]))
@@ -361,26 +378,38 @@
                                     $this->resultedHtml .= "(<strong>".$this->sortedItems[$print][$element]."</strong>), ";
                                 break;
                             case "isbn":
-                                $this->resultedHtml .= " ISBN: ".$this->sortedItems[$print][$element].$delimiter;
+                                if($this->sortedItems[$print][$element]!="")
+                                    $this->resultedHtml .= " ISBN: ".$this->sortedItems[$print][$element].$delimiter;
                                 break;
                             case "volume":
-                                $this->resultedHtml .= " Vol. ".$this->sortedItems[$print][$element].$delimiter;
+                                if($this->sortedItems[$print][$element]!="")
+                                    $this->resultedHtml .= " Vol. ".$this->sortedItems[$print][$element].$delimiter;
                                 break;
-			    case "number":
-				$this->resultedHtml .= " Iss. ".$this->sortedItems[$print][$element].$delimiter;
+                            case "number":
+                                if($this->sortedItems[$print][$element]!="")
+                                    $this->resultedHtml .= " Iss. ".$this->sortedItems[$print][$element].$delimiter;
                                 break;
                             case "chapter":
-                                $this->resultedHtml .= " Chapter ".$this->sortedItems[$print][$element].$delimiter;
+                                if($this->sortedItems[$print][$element]!="")
+                                    $this->resultedHtml .= " Chapter ".$this->sortedItems[$print][$element].$delimiter;
                                 break;
                             case "author":
-                                $this->resultedHtml .= $this->sortedItems[$print][$element].", ";
+                                if($this->sortedItems[$print][$element]!="")
+                                    $this->resultedHtml .= $this->sortedItems[$print][$element].", ";
                                 break;
                             case "location":
-                                $this->resultedHtml .= $this->sortedItems[$print][$element]." ";
+                                if($this->sortedItems[$print][$element]!="")
+                                    $this->resultedHtml .= $this->sortedItems[$print][$element]." ";
+                                break;
+                            case "award":
+                                if($this->sortedItems[$print][$element]!="")
+                                    $this->resultedHtml .= " <font color='red'><b>" . $this->sortedItems[$print][$element]."</b></font> ";
+                                    array_push($this->awardData, $this->resultedHtml);
                                 break;
                             default:
                                 $this->resultedHtml .= $this->sortedItems[$print][$element].$delimiter;
                         }
+                        //array_push($this->typeData, $this->resultedHtml);
                     }
                 }
                 else {
@@ -422,7 +451,41 @@
 		function printPublications() {
 			//Print filters 
             echo '<ul id="publication-filter">';
-            echo '<li><a href="#" class="btn btn-xs btn-success current" data-filter="*">All</a></li>';
+            
+            echo '<li><a href="#" class="btn btn-sm btn-success current" data-filter="*">All</a></li>';
+            echo '<li><a href="#" class="btn btn-xs btn-danger current" data-filter=".award.">Awards</a></li>';
+            //      for($i = 0; $i < count($this->awardData); $i++) {
+            //       echo $this->awardData[$i]."<br>";
+            //    }
+            sort($this->typeData);
+            array_unique ($this->typeData);
+            for($i = 0; $i < count($this->typeData); $i++) {
+               if (isset($this->typeData[$i]) && $this->typeData[$i] == "journal")
+                 echo '<li><a href="#" class="btn btn-xs btn-info" data-filter=".'.$this->typeData[$i].'">Journals and Magazines</a></li>';
+            }
+            for($i = 0; $i < count($this->typeData); $i++) {
+               if (isset($this->typeData[$i]) && $this->typeData[$i] == "conference")
+                 echo '<li><a href="#" class="btn btn-xs btn-info" data-filter=".'.$this->typeData[$i].'">Conference Proceedings</a></li>';
+            }
+            for($i = 0; $i < count($this->typeData); $i++) {
+               if (isset($this->typeData[$i]) && $this->typeData[$i] == "book")
+                 echo '<li><a href="#" class="btn btn-xs btn-info" data-filter=".'.$this->typeData[$i].'">Book Chapters</a></li>';
+            }
+            for($i = 0; $i < count($this->typeData); $i++) {
+               if (isset($this->typeData[$i]) && $this->typeData[$i] == "editorial")
+                 echo '<li><a href="#" class="btn btn-xs btn-info" data-filter=".'.$this->typeData[$i].'">Editorials</a></li>';
+            }
+            for($i = 0; $i < count($this->typeData); $i++) {
+               if (isset($this->typeData[$i]) && $this->typeData[$i] == "thesis")
+                 echo '<li><a href="#" class="btn btn-xs btn-info" data-filter=".'.$this->typeData[$i].'">Theses</a></li>';
+            }
+            for($i = 0; $i < count($this->typeData); $i++) {
+               if (isset($this->typeData[$i]) && $this->typeData[$i] == "gconferences") {
+                 echo '<li><a href="#" class="btn btn-xs btn-info" data-filter=".'.$this->typeData[$i].'">Greek Conferences</a></li>';
+               }
+            }
+            
+            echo '<br><br>';
             for($i = 0; $i < count($this->yearData); $i++) {
                 echo '<li><a href="#" class="btn btn-xs btn-primary" data-filter=".'.$this->yearData[$i].'">'.$this->yearData[$i].'</a></li>';
             }
