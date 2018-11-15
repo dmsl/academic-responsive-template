@@ -42,7 +42,12 @@ To use AR on your site, please add the following code at the end of your website
 
 ## Example Site
 
-Available here: http://www.cs.ucy.ac.cy/~dzeina/
+Demetris Zeinalipour, University of Cyprus (latest version): http://www.cs.ucy.ac.cy/~dzeina/
+Dr. Pavlos Antoniou, University of Cyprus: https://www.cs.ucy.ac.cy/~csp5pa1/
+Dr. Federico Mari, Sapienza University of Rome:  http://mari.di.uniroma1.it/index.html
+... 
+add your name here by sending us the URL: dmsl@cs.ucy.ac.cy 
+
 
 ## Components 
 
