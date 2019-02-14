@@ -46,8 +46,7 @@ To use AR on your site, please add the following code at the end of your website
 - Dr. Pavlos Antoniou, University of Cyprus, Cyprus: https://www.cs.ucy.ac.cy/~csp5pa1/
 - Dr. Georgios Chatzimilioudis, University of Cyprus, Cyprus: https://www.cs.ucy.ac.cy/~gchatzim/
 - Dr. Federico Mari, Sapienza University of Rome, Italy: http://mari.di.uniroma1.it/index.html
-- Dr. Francesco Belardo, University of Naples Federico II, Italy: http://www.dma.unina.it/belardo
-
+- Dr. Francesco Belardo, University of Naples Federico II, Italy: http://www.dma.unina.it/belardo/index.html
 add your name here by sending us the URL: dmsl@cs.ucy.ac.cy 
 
 
