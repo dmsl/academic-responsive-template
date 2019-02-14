@@ -43,9 +43,10 @@ To use AR on your site, please add the following code at the end of your website
 ## Example Site
 
 - Dr. Demetris Zeinalipour, University of Cyprus (latest version): http://www.cs.ucy.ac.cy/~dzeina/
-- Dr. Pavlos Antoniou, University of Cyprus: https://www.cs.ucy.ac.cy/~csp5pa1/
-- Dr. Federico Mari, Sapienza University of Rome:  http://mari.di.uniroma1.it/index.html
-- ... 
+- Dr. Pavlos Antoniou, University of Cyprus, Cyprus: https://www.cs.ucy.ac.cy/~csp5pa1/
+- Dr. Georgios Chatzimilioudis, University of Cyprus, Cyprus: https://www.cs.ucy.ac.cy/~gchatzim/
+- Dr. Federico Mari, Sapienza University of Rome, Italy: http://mari.di.uniroma1.it/index.html
+- Dr. Francesco Belardo, University of Naples Federico II, Italy: http://www.dma.unina.it/belardo
 
 add your name here by sending us the URL: dmsl@cs.ucy.ac.cy 
 
