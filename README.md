@@ -49,8 +49,7 @@ To use AR on your site, please add the following code at the end of your website
 - Dr. Francesco Belardo, University of Naples Federico II, Italy: http://www.dma.unina.it/belardo/index.html
 - Jessica Ryan, University of Glasgow, https://jessryan.co.uk/
 
-add your name here by sending us the URL: dmsl@cs.ucy.ac.cy 
-
+to be included above, please add your name here https://docs.google.com/spreadsheets/d/1jl6MyvTFCwY1KrfOPdFcGyT4wj0ZF45dJ2ViQde_W9U/edit?usp=sharing
 
 ## Components 
 
