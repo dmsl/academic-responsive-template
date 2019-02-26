@@ -47,6 +47,8 @@ To use AR on your site, please add the following code at the end of your website
 - Dr. Georgios Chatzimilioudis, University of Cyprus, Cyprus: https://www.cs.ucy.ac.cy/~gchatzim/
 - Dr. Federico Mari, Sapienza University of Rome, Italy: http://mari.di.uniroma1.it/index.html
 - Dr. Francesco Belardo, University of Naples Federico II, Italy: http://www.dma.unina.it/belardo/index.html
+- Jessica Ryan, University of Glasgow, https://jessryan.co.uk/
+
 add your name here by sending us the URL: dmsl@cs.ucy.ac.cy 
 
 
