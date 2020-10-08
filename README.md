@@ -47,9 +47,13 @@ To use AR on your site, please add the following code at the end of your website
 - Dr. Georgios Chatzimilioudis, University of Cyprus, Cyprus: https://www.cs.ucy.ac.cy/~gchatzim/
 - Dr. Federico Mari, Sapienza University of Rome, Italy: http://mari.di.uniroma1.it/index.html
 - Dr. Francesco Belardo, University of Naples Federico II, Italy: http://www.dma.unina.it/belardo/index.html
+- Dr. Karthik Dantu, University at Buffalo, NY, USA, https://cse.buffalo.edu/faculty/kdantu/index.html
+- Dr. Kenji Aono, Washington University in St. Louis, USA, https://kenji.pro/index.html
+- Amirhossein Sobhani,  University of Science and Technology - Tehran, Iran, http://webpages.iust.ac.ir/a_sobhani/
+- Thomas Vilarinho, Sintef, Norway, https://www.tvilarinho.com/
+- Charles Middlicott, Univ. of Derby - Derby, UK, https://www.charlesmiddlicott.co.uk/index.html
+- Mohammad Reza Bahrami, Sharif University of Technology, http://ce.sharif.edu/~mrbahrami/
 - Jessica Ryan, University of Glasgow, https://jessryan.co.uk/
-
-to be included above, please add your name here https://docs.google.com/spreadsheets/d/1jl6MyvTFCwY1KrfOPdFcGyT4wj0ZF45dJ2ViQde_W9U/edit?usp=sharing
 
 ## Components 
 
