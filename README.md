@@ -99,7 +99,27 @@ Also check out the sister template designated for courses: https://github.com/dm
 40. Kai Zhou, The Hong Kong Polytechnic University, https://www4.comp.polyu.edu.hk/~kaizhou/
 41. Rohit Voleti, Arizona State University - Tempe, AZ, USA, https://www.public.asu.edu/~rnvoleti/index.html
 42. Guanghui Qin, Johns Hopkins University, USA, https://hiaoxui.com/
-43. 
+43. Suman Majumdar, Indian Institute of Technology Indore, India, http://people.iiti.ac.in/~sumanm/
+44. Ragib Ahsan, University of Illinois at Chicago, USA,  https://rahsan3.people.uic.edu/bio.html
+45. Mirko Polato, University of Padova, Italy, https://www.math.unipd.it/~mpolato/
+46. Dr. Ni Zhao, Johns Hopkins University, USA, http://www.biostat.jhsph.edu/~nzhao/
+47. Dr. Istvan Andras Seres, Eotvos Lorand University - Budapest, HUN, http://istvanseres.web.elte.hu/index.html
+48. Prof. Samuel Pagliarin, Tallinn University of Technology (TalTech), Finland, https://ati.ttu.ee/~spagliar/
+49. Dr. Nikolaos Ploskas, Prof. University of Western Macedonia, Greece, http://users.uowm.gr/nploskas/
+50. Dr. Francisco Javier Bermúdez Ruiz, University of Murcia, Spain, http://dis.um.es/~jbermudez/index.html
+51. Shuo Wu, Beijing University, China, https://whuosu.top/
+52. Ashokkumar C, Indian Institute of Technology Bombay (IIT Bombay), India, https://www.cse.iitb.ac.in/~ashokkumar/
+53. John van de Wetering, Radboud University Nijmegen, The Netherlands, http://vdwetering.name/
+54. Marimuthu C, National Institute of Technology Karnatakam, India, http://www.clarifyed.in/marimuthu/index.html
+55. MD. Tanmay Gokhale, University of Pittsburgh Medical Center, PA, USA, http://www.tgokhale.com/
+56. Dr. Guohao Lan, Duke University, USA, https://guohao.netlify.app/
+57. Austin Clyde, University of Chicago, USA, http://austinclyde.com/
+58. Jorge Castro-Godínez, Tecnológico de Costa Rica, Costa Rica, http://www.ie.tec.ac.cr/jocastro/
+59. Shuotao Xu, Massachusetts Institute of Technology, MA, USA, http://people.csail.mit.edu/shuotao/
+60. Angela Chantre Astaiza, Universidad del Cauca, Colombia, http://angelachantre.com/indexEN.html
+61. Manh Duong Phung, Vietnam National University, Hanoi https://uet.vnu.edu.vn/~duongpm/
+62. Rui Zhu. University of California, Santa Barbara, CA, USA, http://www.geog.ucsb.edu/~zhu/
+62. 
 
 
 
