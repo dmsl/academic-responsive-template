@@ -40,20 +40,63 @@ To use AR on your site, please add the following code at the end of your website
 </footer>
 ```
 
-## Example Site
+## Adopter Sites (in order we became aware of)
 
-- Dr. Demetris Zeinalipour, University of Cyprus (latest version): http://www.cs.ucy.ac.cy/~dzeina/
-- Dr. Pavlos Antoniou, University of Cyprus, Cyprus: https://www.cs.ucy.ac.cy/~csp5pa1/
-- Dr. Georgios Chatzimilioudis, University of Cyprus, Cyprus: https://www.cs.ucy.ac.cy/~gchatzim/
-- Dr. Federico Mari, Sapienza University of Rome, Italy: http://mari.di.uniroma1.it/index.html
-- Dr. Francesco Belardo, University of Naples Federico II, Italy: http://www.dma.unina.it/belardo/index.html
-- Dr. Karthik Dantu, University at Buffalo, NY, USA, https://cse.buffalo.edu/faculty/kdantu/index.html
-- Dr. Kenji Aono, Washington University in St. Louis, USA, https://kenji.pro/index.html
-- Amirhossein Sobhani,  University of Science and Technology - Tehran, Iran, http://webpages.iust.ac.ir/a_sobhani/
-- Thomas Vilarinho, Sintef, Norway, https://www.tvilarinho.com/
-- Charles Middlicott, Univ. of Derby - Derby, UK, https://www.charlesmiddlicott.co.uk/index.html
-- Mohammad Reza Bahrami, Sharif University of Technology, http://ce.sharif.edu/~mrbahrami/
-- Jessica Ryan, University of Glasgow, https://jessryan.co.uk/
+1. Dr. Demetris Zeinalipour, University of Cyprus (latest version), http://www.cs.ucy.ac.cy/~dzeina/
+2. Dr. Pavlos Antoniou, University of Cyprus, Cyprus, https://www.cs.ucy.ac.cy/~csp5pa1/
+3. Dr. Georgios Chatzimilioudis, University of Cyprus, Cyprus, https://www.cs.ucy.ac.cy/~gchatzim/
+4. Dr. Federico Mari, Sapienza University of Rome, Italy, http://mari.di.uniroma1.it/index.html
+5. Dr. Francesco Belardo, University of Naples Federico II, Italy, http://www.dma.unina.it/belardo/index.html
+6. Dr. Karthik Dantu, University at Buffalo, NY, USA, https://cse.buffalo.edu/faculty/kdantu/index.html
+7. Dr. Kenji Aono, Washington University in St. Louis, USA: https://kenji.pro/index.html
+8. Thomas Vilarinho, Sintef, Norway, https://www.tvilarinho.com/
+9. Amirhossein Sobhani, University of Science and Technology - Tehran, Iran: http://webpages.iust.ac.ir/a_sobhani/
+10. Charles Middlicott, Univ. of Derby - Derby, UK, https://www.charlesmiddlicott.co.uk/index.html
+11. Mohammad Reza Bahrami, Sharif University of Technology, Iran, http://ce.sharif.edu/~mrbahrami/
+12. Jessica Ryan, University of Glasgow, UK, https://jessryan.co.uk/
+13. Chrysovalantis Anastasiou, University of Southern California, USA, https://canastas.info/
+14. Kuniaki Saito, Boston University, USA, http://cs-people.bu.edu/keisaito
+15. Dr. Majid Abdolshah, Deakin University, Australia, http://majid.website/index.html
+16. Embedded Artificial Intelligence Lab, Beijing, China, https://embeddedai.github.io/index.html
+17. Dr. Ashwin Ashok, Georgia State University, GA, USA, http://mobile.cs.gsu.edu/aashok/
+18. Centre for Philosophy of Memory,  Université Grenoble Alpes, France, http://phil-mem.org/index.php
+19. Anthony Chen, University of California - Irvine, CA, USA, https://anthonywchen.github.io/
+20. Charles Middlicott, University of Derby, UK, https://www.charlesmiddlicott.co.uk/
+21. Calum Buchanan, University of Vermont, USA http://www.uvm.edu/~cjbuchan/
+22. Dr. Hao Wang, Stanford University, CA, USA, https://web.stanford.edu/~haowang6
+23. Lu Xing, Purdue University, IN, USA, https://www.cs.purdue.edu/homes/xingl/
+24. Dr. Deepayan Bhowmik, University of Stirling, UK, http://www.cs.stir.ac.uk/~dbh/
+25. Dr. Sabeur Elkosantini, University of Carthage, Tunisia, http://sabeur.elkosantini.me/
+26. Chao Li, Princeton, USA, https://web.math.princeton.edu/~chaoli/
+27. Zulqarnain Haider, University of South Florida, USA, http://eng.usf.edu/~zulqarnain/index.html
+28. Dr. Benjamin Rudshteyn, Columbia University, NY, USA, http://www.columbia.edu/~br2575/
+29. Dr. Amiangshu Bosu, Wayne State University, MI, USA, http://amiangshu.com/
+30. André Mateus, Instituto Superior Técnico, Lisboa, Portugal, http://web.tecnico.ulisboa.pt/andre.mateus/
+31. Arturo González-Ferrer, IATA, Madrid, Spain, http://www.ugr.es/~arturogf/
+32. İlker Bozcan, Turkey, Middle East Technical University, Turkey, http://kovan.ceng.metu.edu.tr/~ilker
+33. Prof. Tom Kelsey, University of St Andrews, UK, https://tom.host.cs.st-andrews.ac.uk/index.html
+34. Dr. Elyes NEFZAOUI, Univ. Paris Est, France, https://perso.esiee.fr/~nefzaoue/
+35. Dr. Pierre Meyer, IDC Herzliya, Israel, https://cs.idc.ac.il/~pierre.meyer/
+36. Mohammad Reza Bahrami, Sharif University of Technology, Iran, http://ce.sharif.edu/~mrbahrami/
+37. Dr. Anastasios C. Politis, International Hellenic University, Greece, http://teachers.cm.ihu.gr/politis/start.htm
+38. Dr. Denys Rozumnyi, Czech Technical University in Prague, Czech Republic, http://cmp.felk.cvut.cz/~rozumden/
+39. Prof. Jianwei Niu, University of Texas at San Antonio, TX, USA, http://www.cs.utsa.edu/~niu/
+40. Kai Zhou, The Hong Kong Polytechnic University, https://www4.comp.polyu.edu.hk/~kaizhou/
+41. Rohit Voleti, Arizona State University - Tempe, AZ, USA, https://www.public.asu.edu/~rnvoleti/index.html
+42. Guanghui Qin, Johns Hopkins University, USA, https://hiaoxui.com/
+43. 
+
+
+
+
+
+
+
+
+
+More: 
+
+
 
 ## Components 
 
