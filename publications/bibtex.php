@@ -150,7 +150,7 @@
                     $this->items['lineend'][$this->count] = $lineindex;
                 }
                 $line = trim($line);
-                $raw_line = $line + '\n';
+                $raw_line = $line . '\n';
                 $line=str_replace("'","`",$line);
                 $seg=str_replace("\"","`",$line);
                 $ps=strpos($seg,'=');
@@ -377,6 +377,14 @@
                                 else 
                                     $this->resultedHtml .= "(<strong>".$this->sortedItems[$print][$element]."</strong>), ";
                                 break;
+                             case "doi":
+                                 if(isset($this->sortedItems['doi'][$element])) {
+                                     $this->resultedHtml .= ' DOI: <a class="publications-title" target="blank" href="https://doi.org/' .
+                                                        $this->sortedItems[$print][$element] .
+                                                        '">' . $this->sortedItems[$print][$element] .
+                                                        '</a>,&nbsp;';
+                                 }
+                                 break;
                             case "isbn":
                                 if($this->sortedItems[$print][$element]!="")
                                     $this->resultedHtml .= " ISBN: ".$this->sortedItems[$print][$element].$delimiter;
