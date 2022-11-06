@@ -1298,8 +1298,8 @@ p {
 }
 .lead {
   margin-bottom: 20px;
-  font-size: 16px;
-  font-weight: 300;
+  font-size: 12px;
+  font-weight: 100;
   line-height: 1.4;
 }
 @media (min-width: 768px) {
